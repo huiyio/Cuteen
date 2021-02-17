@@ -1,0 +1,48 @@
+/**文字**/
+@font-face {
+  font-family: "moonbridge";
+  src: url("https://ku.oioweb.cn/Resources/font/造字工房悦圆/moonbridge.woff2") format("woff2"),
+       url("https://ku.oioweb.cn/Resources/font/造字工房悦圆/moonbridge.woff") format("woff"),
+       url("https://ku.oioweb.cn/Resources/font/造字工房悦圆/moonbridge.ttf") format("truetype"),
+       url("https://ku.oioweb.cn/Resources/font/造字工房悦圆/moonbridge.eot") format("embedded-opentype"),
+       url("https://ku.oioweb.cn/Resources/font/造字工房悦圆/moonbridge.svg") format("svg"),
+       url("https://ku.oioweb.cn/Resources/font/造字工房悦圆/moonbridge.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+font-display: swap;
+}
+body{
+    font-family: 'moonbridge'
+} 
+/**头像旋转呼吸光环**/
+.friends-img.mr-2.lazy.loaded:hover{
+transform:rotate(360deg);
+}
+.comment-avatar:hover{
+transform:rotate(360deg);
+}
+.sidebar-comment-avatar.mr-1:hover{
+transform:rotate(360deg);
+}
+.friends-img.mr-2.lazy.loaded,.comment-avatar,.sidebar-comment-avatar.mr-1 {
+    border-radius: 50%;
+    animation: light 4s ease-in-out infinite;
+    transition: all 0.5s;
+}
+@keyframes light {
+    0% {
+        box-shadow: 0 0 4px #ff1354;
+    }
+    25% {
+    box-shadow: 0 0 16px #1ebbff;
+    }
+    50% {
+    box-shadow: 0 0 4px #0ed39f;
+    }
+    75% {
+    box-shadow: 0 0 16px #4fe7f4;
+    }
+    100% {
+    box-shadow: 0 0 4px #f35444;
+    }
+}
