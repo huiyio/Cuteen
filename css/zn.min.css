@@ -46,3 +46,11 @@ transform:rotate(360deg);
     box-shadow: 0 0 4px #f35444;
     }
 }
+/**美化有序标签**/
+ol li:hover::before{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
