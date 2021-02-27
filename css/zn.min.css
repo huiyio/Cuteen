@@ -227,7 +227,7 @@ hr:hover::before{
 .night .tip{
   color: #4c4948;
 }
-/**头像旋转呼吸光环**/
+/**文章页周围加脚步呼吸光环**/
 .post-ctx, .post-comment.mt-4, .sidebar-box, footer{
     animation: light 30s ease-in-out infinite;
     transition: all 60s;
