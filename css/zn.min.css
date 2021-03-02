@@ -227,25 +227,3 @@ hr:hover::before{
 .night .tip{
   color: #4c4948;
 }
-/**文章页周围加脚步呼吸光环**/
-.post-ctx, .post-comment.mt-4, .sidebar-box, footer{
-    animation: light 30s  ease-in-out;
-    transition: all 60s;
-}
-@keyframes light {
-    0% {
-        box-shadow: 0 0 12px #7bbfea;
-    }
-    25% {
-    box-shadow: 0 0 16px #11264f;
-    }
-    50% {
-    box-shadow: 0 0 11px #5e7c85;
-    }
-    75% {
-    box-shadow: 0 0 16px #74787c;
-    }
-    100% {
-    box-shadow: 0 0 17px #6c4c49;
-    }
-}
